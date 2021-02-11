@@ -1,21 +1,77 @@
+
+/*GENERAL STYLE*/
 body {
-  background-color: #ecfeff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
-hr {
+h1{
+  font-size: 300%;
+  margin: 0;
+}
+h3{
+  padding-top: 20px;
+  margin: 0;
+}
+hr{
+  background-color: white;
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 5%;
-  }
-h1 {
-  color: #4abc39;
-  font-size: xx-large;
-  text-decoration: none;
-  background-color: transparent;
+  width: 10%;
 }
-h3 {
-  color: #4abc39;
-  text-decoration: none;
-  background-color: transparent;
+/*NAV HEADER*/
+.logo-nav{
+  width: 8%;
+  display: inline-block;
+  position: relative;
+  right: 450px;
+}
+.button-nav{
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  bottom: 35px;
+}
+
+/*DIV TOP-BOX*/
+.top-box{
+  display: inline-block;
+  position: relative;
+}
+.building{
+  width: 100%;
+}
+#texto{
+  position: absolute;
+  top: 30px;
+}
+.topimg{
+  padding-top: 20px;
+  width: 30%;
+}
+
+/*DIV MIDDLE-BOX*/
+.logo-pa{
+  width: 50%;
+}
+.parrafo{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
+
+header{
+  background-color: red;
+}
+.description-detail{
+  background-color: red;
+}
+.contact-me{
+  background-color: red;
 }
