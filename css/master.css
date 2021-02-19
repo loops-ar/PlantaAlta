@@ -2,7 +2,7 @@
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  background-color: whitesmoke; 
+  background-color: white; 
   display: block;
   position: relative;
   margin: 0 auto;
@@ -15,7 +15,7 @@ body::after{
   background-repeat: no-repeat;
   background-size: 50%;
   content: "";
-  opacity: 0.1;
+  opacity: 0.35;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -48,10 +48,11 @@ hr{
 }
 .button-nav{
   width: 5%;
-  display: inline-block;
   position: relative;
   left: 37%;
   bottom: 35px;
+  background-color: tomato;
+  border-style: solid;
 }
 
 /*DIV TOP-BOX*/
@@ -69,19 +70,44 @@ hr{
 }
 #texto{
   position: absolute;
-  top: 30px;
-}
-
-.form{
-  margin: 0 auto;
-  display: inline;
+  top: 1px;
 }
 
 /*DIV MIDDLE-BOX*/
-.logo-pa{
-  width: 50%;
+.middle-box{
+  display: inline-block;
 }
-.parrafo{
-  width: 80%;
-  margin: 0 auto;
+
+/*DIV DESCRIPTION*/
+.description{
+  width: 70%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.logo-pa{
+  width: 55%;
+  float: left;
+  margin-right: 70px;
+}
+
+/*DIV CONTACT-ME*/
+.contact-me{
+  width: 70%;
+  margin: 50px auto;
+  text-align: right;
+  line-height: 2;
+  display: inline-block;
+}
+.form{
+  width: 50%;
+  float: right;
+  margin-left: 70px;
+}
+.table{
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  background-color: tomato;
+  width: 70%;
 }
