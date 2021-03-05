@@ -1,0 +1,174 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  z-index: 0;
+  background-color: #f8f9fa;
+
+}
+body::after{
+  background-image:  url("../images/background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  content: "";
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1; 
+}
+
+/* Section TOP */
+#title{
+  color: #0b0b0b;
+}
+.title-div-text{
+ font-size: 4rem;
+ line-height: 1.5;
+ padding: 15px 0;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding-bottom: 10px;
+}
+.navbar-nav{
+  align-items: center;
+}
+.nav-item{
+  padding: 0 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Title Text */
+.text1{
+  padding-top: 60px;
+  text-align: center;
+}
+
+#features{
+  display: none;
+}
+#testimonials{
+  display: none;
+}
+#press{
+  display: none;
+}
+#pricing{
+  display: none;
+}
+#cta{
+  display: none;
+}
+#footer{
+  display: none;
+}
+
+/*GENERAL STYLE
+body {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  z-index: 0;
+}
+body::after{
+  background-image:  url("../images/background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  content: "";
+  opacity: 0.35;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1; 
+}
+h1{
+  font-size: 2.5rem;
+  margin: 0;
+}
+h3{
+  font-size: 1.5rem;
+  margin: 0;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+
+/*NAV HEADER
+.logo-nav{
+  display: none;
+}
+
+
+
+/*DIV TOP-BOX
+.top-box{
+  display: inline-block;
+  position: relative;
+}
+.top-img{
+  padding-block: 20px;
+  padding-inline: 20px;
+  width: 50%;
+}
+.building{
+  width: 100%;
+}
+#texto{
+  position: absolute;
+  top: 1px;
+}
+
+/*DIV MIDDLE-BOX
+.middle-box{
+  display: inline-block;
+}
+
+/*DIV DESCRIPTION
+.description{
+  width: 70%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.logo-pa{
+  width: 55%;
+  float: left;
+  margin-right: 70px;
+}
+
+/*DIV CONTACT-ME
+.contact-me{
+  width: 70%;
+  margin: 50px auto;
+  text-align: right;
+  line-height: 2;
+  display: inline-block;
+}
+.form{
+  width: 50%;
+  float: right;
+  margin-left: 70px;
+}
+.table{
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  background-color: tomato;
+  width: 70%;
+}
