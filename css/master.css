@@ -44,20 +44,17 @@ body::after{
 .row{
   padding: 5px 0 0 0;
   border-radius: 0px 20px;
-  border: 2px groove #989898;
 }
 .title-div-text{
-  padding: 0 0 10px 0;
+  padding: 4rem 0 10px 0;
   text-align: center;
   font-size: 3.8rem;
   line-height: 4rem;
-  font-family: 'Rubik', sans-serif;
  }
  .title-div-text2{
   padding: 1.2rem 0 0 0;
-  text-align: left;
-  font-size: 3rem;
-  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 2rem;
  }
  .top-text{
   padding: 0.5rem 0 0 0;
@@ -72,7 +69,10 @@ body::after{
 
 
 /* Section FEATURES */
-
+#features{display: none;
+  background-color: #323632;
+  color: white;
+}
 
 
 
