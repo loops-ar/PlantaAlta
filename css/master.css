@@ -26,7 +26,7 @@ h3{
   font-weight: bold;
 }
 p{
-  color: whitesmoke;
+  color: black;
 }
 
 /* Section TOP */
@@ -76,13 +76,46 @@ p{
   margin-right: auto;
 }
 
+/* About Us */
+
+#titulo-nosotros{
+  text-decoration: underline;
+  margin: 1% 0 0 0;
+  font-size: 4rem;
+}
+#about-us{
+  background-color: #02bc02;
+  color: white;
+  text-align: center;
+}
+.nosotros-text-r{
+  padding: 2% 5% 0 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.nosotros-text-l{
+  padding: 2% 5% 0 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.nosotros-img{
+  border-radius: 5%;
+  max-width: auto;
+  max-height: auto;
+}
+.carousel-item{
+  padding: 5% 15%;
+
+}
 
 
 /* Section FEATURES */
 #features{
-  background-color: #02bc02;
-  color: white;
-  padding: 7% 15%;
+  padding: 3% 15%;
 }
 .feature{
   text-align: center;
@@ -99,38 +132,6 @@ text-decoration: underline;
 }
 
 
-/* About Us */
-
-#titulo-nosotros{
-  margin: 1% 0 0 0;
-  font-size: 3rem;
-}
-#about-us{
-  text-align: center;
-}
-.nosotros-text-r{
-  padding: 3% 5% 0 5%;
-  font-family: 'Roboto', sans-serif;
-  text-align: right;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-.nosotros-text-l{
-  padding: 3% 5% 0 5%;
-  font-family: 'Roboto', sans-serif;
-  text-align: left;
-  font-size: 2rem;
-  line-height: 3rem;
-}
-.nosotros-img{
-  border-radius: 5%;
-  max-width: auto;
-  max-height: auto;
-}
-.carousel-item{
-  padding: 5% 15%;
-
-}
 
 
 
