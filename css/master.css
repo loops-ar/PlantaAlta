@@ -51,7 +51,7 @@ p{
 }
 
 /* Title Text */
-.row{
+.title-text{
   padding: 5px 0 0 0;
   border-radius: 0px 20px;
 }
@@ -138,9 +138,25 @@ text-decoration: underline;
 
 
 
-/* Section PRESS */
-#press{
-  display: none;
+/* Section CONTACT */
+#contact{
+  padding: 1% 0 3% 0;
+  background-color: #02bc02;
+  color: white;
+}
+.text-optional{
+  color: whitesmoke;
+}
+.lead{
+  color: white;
+}
+.contact-text{
+  padding: 10% 0 0 10%;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: white;
 }
 
 
@@ -153,6 +169,9 @@ text-decoration: underline;
 }
 #footer{
   display: none;
+}
+.formulario-contacto{
+  
 }
 
 /*GENERAL STYLE

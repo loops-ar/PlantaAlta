@@ -20,6 +20,33 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/b00026cde2.js" crossorigin="anonymous"></script>
+    <!-- Form-Validation JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="form-validation.js"></script>
+    
+    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/form-validation.css" rel="stylesheet">
+
+
   </head>
 
   <body>  
@@ -37,16 +64,16 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a class="nav-link" href=#>Probá PlantaAlta</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=#about-us>Nosotros</a>
+                <a class="nav-link" href=#about-us>¿Qué hacemos?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=#>Contacto</a>
+                <a class="nav-link" href=#contact>Contacto</a>
               </li>
               <li class="nav-item">
                 <a class="btn btn btn-success btn-lg" href="https://consorcios.plantaalta.net/" role="button"><i class="far fa-user-circle"></i> Ingresar</a>
@@ -56,7 +83,7 @@
         </nav>
 
         <!-- Title -->
-        <div class="row">
+        <div class="title-text row">
           <div class="pt-5 col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <h1 class="title-div-text m-0">BIENVENIDO A</h1>
             <img class="center img-fluid" src="images/PlantaAlta_LogoLetras.png" alt="PlantaAlta">
@@ -73,7 +100,7 @@
     <!-- About Us -->
     <section id="about-us">
       <br>
-      <h1 id="titulo-nosotros">NOSOTROS</h1>
+      <h1 id="titulo-nosotros">¿Qué hacemos?</h1>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -129,14 +156,89 @@
     </section>
 
 
-    <!-- Press -->
-
-    <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo">
-      <img src="images/tnw.png" alt="tnw-logo">
-      <img src="images/bizinsider.png" alt="biz-insider-logo">
-      <img src="images/mashable.png" alt="mashable-logo">
-
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="py-5 text-center">
+          <h2>¡Contactanos!</h2>
+          <p class="lead">Llená el formulario debajo y uno de nuestros agentes se estará poniendo en contacto con vos para informarte sobre tus dudas o consultas.</p>
+        </div>
+      
+        <div class="formulario-contacto row">
+          <div class="col-lg-8 col-md-8">
+            <h4 class="mb-3">Datos de contacto</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">Nombre</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    El campo "Nombre" es requerido.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    El campo "Apellido" es requerido.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="username">Nombre de usuario <span class="text-optional">(Si posee)</span></label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="Usuario">
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="email">Email <span class="text-optional">(Opcional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="tumail@ejemplo.com" required>
+                <div class="invalid-feedback">
+                  El campo "Email" es requerido.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="address">Domicilio</label>
+                <input type="text" class="form-control" id="address" placeholder="Calle Martinez 1234" required>
+                <div class="invalid-feedback">
+                  El campo "Domicilio" es requerido.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="address2">Domicilio 2 <span class="text-optional">(Opcional)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Departamento/Lote">
+              </div>
+      
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">País</label>
+                  <input type="text" class="form-control" id="country" placeholder="Argentina">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="province">País</label>
+                  <input type="text" class="form-control" id="province" placeholder="Córdoba">
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="zip">Zip</label>
+                  <input type="text" class="form-control" id="CP" placeholder="5000">
+                </div>
+              </div>
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar consulta</button>
+            </form>
+          </div>
+          <div class="col-lg-4 col-md-8">
+            <p class="contact-text">Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. </p>
+          </div>
+        </div>  
+      </div>
     </section>
 
 
