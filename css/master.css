@@ -1,5 +1,5 @@
 body{
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #f8f9fa;
   display: block;
   position: relative;
@@ -20,13 +20,23 @@ body::after{
   right: 0;
   left: 0;
   z-index: -1; 
-}/* Section TOP */
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: whitesmoke;
+}
+
+/* Section TOP */
 #title{
   color: #0b0b0b;
 }
 .container-fluid{
-    padding: 0 10%;
+  padding: 0 10%;
 }
+
 /* Navigation Bar */
 .navbar-brand{
   padding: 0 0 0 15px;
@@ -69,9 +79,57 @@ body::after{
 
 
 /* Section FEATURES */
-#features{display: none;
-  background-color: #323632;
+#features{
+  background-color: #02bc02;
   color: white;
+  padding: 7% 15%;
+}
+.feature{
+  text-align: center;
+  padding: 0 8%;
+}
+.h3-under{
+text-decoration: underline;
+}
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #138e00;
+}
+
+
+/* About Us */
+
+#titulo-nosotros{
+  margin: 1% 0 0 0;
+  font-size: 3rem;
+}
+#about-us{
+  text-align: center;
+}
+.nosotros-text-r{
+  padding: 3% 5% 0 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.nosotros-text-l{
+  padding: 3% 5% 0 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.nosotros-img{
+  border-radius: 5%;
+  max-width: auto;
+  max-height: auto;
+}
+.carousel-item{
+  padding: 5% 15%;
+
 }
 
 
@@ -79,12 +137,13 @@ body::after{
 
 
 
-#testimonials{
-  display: none;
-}
+/* Section PRESS */
 #press{
   display: none;
 }
+
+
+
 #pricing{
   display: none;
 }
