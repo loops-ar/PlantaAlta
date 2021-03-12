@@ -113,7 +113,7 @@ p{
 /* Section FEATURES */
 #features{
   padding: 0 0;
-  background-color: black;
+  background-color: rgb(25, 25, 25);
   z-index: 1;
 }
 
@@ -124,7 +124,7 @@ p{
   position: relative;
 }
 #myVideo{
-  opacity: 0.2;
+  opacity: 0.15;
   position: absolute;
   top: 0;
   left: 0;
@@ -135,7 +135,7 @@ p{
 
 .content{
   color: white;
-  padding: 10% 7%;
+  padding: 15% 7%;
 }
 .feature{
   color: white;
@@ -173,11 +173,19 @@ text-decoration: underline;
 }
 .app-div{
   border-style: solid;
+  border-color: gray;
   border-width: 1px;
 }
 .item-app{
   padding: 0;
 }
+.list-group-item{
+  text-align: left;
+}
+.ok-icon{
+  color: #008c00;
+}
+
 
 /* Section CONTACT */
 #contact{
@@ -192,7 +200,7 @@ text-decoration: underline;
   color: white;
 }
 .contact-text{
-  padding: 0 0 0 0;
+  padding: 0 0 5% 0;
   font-family: 'Roboto', sans-serif;
   text-align: left;
   font-size: 1.5rem;
