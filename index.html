@@ -58,7 +58,7 @@
 
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand">
             <img src="images/PlantaAlta_Logotipo.png" width="120" alt="logo-pa">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,13 +67,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href=#try>Probá PlantaAlta</a>
+                <a class="nav-link" href=#about-us>¿Qué es <b>PlantAlta.NET</b>?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=#about-us>¿Qué hacemos?</a>
+                <a class="nav-link" href=#try>Funciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href=#contact>Contacto</a>
+                <a class="nav-link" href=#contact>Contactanos</a>
               </li>
               <li class="nav-item">
                 <a class="btn btn btn-success btn-lg" href="https://consorcios.plantaalta.net/" role="button"><i class="far fa-user-circle"></i> Ingresar</a>
@@ -89,7 +89,7 @@
             <img class="center img-fluid" src="images/PlantaAlta_LogoLetras.png" alt="PlantaAlta">
             <h3 class="title-div-text2 m-0"><b>PROPIEDADES Y CONSORCIOS</b></h3>
           </div>
-          <div class="col-lg-6 px-0">
+          <div class="col-lg-6 pt-1 px-0">
             <img src="images/mockup-iphone.png" class="rounded float-right" alt="mockup-iphone">
           </div>
         </div>
@@ -100,24 +100,24 @@
     <!-- About Us -->
     <section id="about-us">
       <br>
-      <h1 id="titulo-nosotros">¿Qué hacemos?</h1>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <h1 id="titulo-nosotros">¿Que es <b>PlantaAlta.NET</b>?</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="0">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row container-fluid">
-              <h2 class="nosotros-text-r col-lg-6"><b>Planta Alta</b> es un sistema on-line que crea una vinculación entre el administrador, el consorcista y los medios e instituciones de pago.</h2>
-              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-office-working.jpeg" alt="office-working">
+              <h2 class="nosotros-text-r col-lg-6"><b>PlantaAlta.NET</b> es un sistema on-line que crea una vinculación entre el administrador, el consorcista y los medios e instituciones de pago.</h2>
+              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-office-working.png" alt="office-working">
             </div>
           </div>
           <div class="carousel-item">
             <div class="row container-fluid">
-              <h2 class="nosotros-text-r col-lg-6">Al consorcista le permite tener información on line  y pagar de manera simple su expensa.</h2>
-              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-pay-working.jpeg" alt="office-working">
+              <h2 class="nosotros-text-r col-lg-6">Al consorcista le permite tener información on-line  y pagar de manera simple su expensa y gastos.</h2>
+              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-pay-working.png" alt="office-working">
             </div>
           </div>
           <div class="carousel-item">
             <div class="row container-fluid">
-              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-cell-working.jpeg" alt="office-working">
+              <img class="nosotros-img d-block img-fluid col-lg-6" src="images/pa-cell-working.png" alt="office-working">
               <h2 class="nosotros-text-l col-lg-6">Al administrador le permite gestionar el consorcio y liquidar las expensas de manera simple y automatizada desde cualquier dispositivo con acceso a internet.</h2>
             </div>
           </div>
@@ -135,22 +135,88 @@
 
     <!-- Features -->
     <section id="features">
-      <div class="row">
-        <div class="feature col-lg-4">
-          <i class="icon fas fa-smile fa-5x"></i>
-          <h3 class="h3-under">Cómodo</h3>
-          <p>Consultá información y respondé a tus clientes desde cualquier lado.</p>
+
+      <div class="videobg">
+        <video autoplay muted loop id="myVideo">
+          <source src="images/sistema-pa.mov" type="video/mp4">
+        </video>
+        <div class="content">
+          <div class="row">
+            <div class="feature col-lg-4">
+              <i class="icon fas fa-smile fa-5x"></i>
+              <h3 class="h3-under">Cómodo</h3>
+              <p class="feature">Consultá información y respondé a tus clientes desde cualquier lado.</p>
+            </div>
+            <div class="feature col-lg-4">
+              <i class="icon fas fa-lock fa-5x"></i>
+              <h3 class="h3-under">Seguro</h3>
+              <p class="feature"> Cargá toda la información a nuestro sistema, de manera confidencial.</p>
+            </div>
+            <div class="feature col-lg-4">
+              <i class="icon fas fa-check-circle fa-5x"></i>
+              <h3 class="h3-under">Transparente</h3>
+              <p class="feature">Solicitá detalle de saldos, deudas y pago, todo al alcance de un click.</p>
+            </div>
+          </div>
         </div>
-        <div class="feature col-lg-4">
-          <i class="icon fas fa-lock fa-5x"></i>
-          <h3 class="h3-under">Seguro</h3>
-          <p>Cargá toda la información a nuestro sistema, de manera confidencial.</p>
+      </div>
+
+    </section>
+
+    <!-- Try -->
+    <section id="try">
+      <div class="conteiner-fluid-try">
+        <div>
+          <h2 class="try-header">PlantaAlta.NET</h2>
+          <h4 class="try-header2">Una nueva forma de vivir tu propiedad.</h4>
         </div>
-        <div class="feature col-lg-4">
-          <i class="icon fas fa-check-circle fa-5x"></i>
-          <h3 class="h3-under">Transparente</h3>
-          <p>Solicitá detalle de saldos, deudas y pago, todo al alcance de un click.</p>
-        </div>
+        
+        <div class="row">
+           <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header">Beneficios para <br> <b>CONSORCISTAS</b></div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Pagá tus expensas por cualquier medio de pago</li>
+                  <li class="list-group-item">Particiá de las votaciones de manera on-line</li>
+                  <li class="list-group-item">Hacé denucias de cualquier tipo las 24hs</li>
+                  <li class="list-group-item">Recibí asistencia especializada para tu inmueble</li>
+                </ul>
+              </div>
+            </div>  
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-header">Beneficios para <br> <b>ADMINISTRADORES</b></div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Liquidá expensas con un solo click desde cualquier lado</li>
+                  <li class="list-group-item">Los cobros se imputan automaticamente</li>
+                  <li class="list-group-item">Todos los mails se envían de manera automática</li>
+                  <li class="list-group-item">Recibí reportes en tiempo real de tus consorcios</li>
+                </ul>
+              </div>
+            </div>
+          </div>  
+                   
+          <div class="app-div col-lg-4 col-md-12 col-sm-12 p-0">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-pause="false" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item p-0 active">
+                  <img class="d-block w-100" src="images/app-1.png">
+                </div>
+                <div class="carousel-item p-0">
+                  <img class="d-block w-100" src="images/app-2.png">
+                </div>
+                <div class="carousel-item p-0">
+                  <img class="d-block w-100" src="images/app-3.png">
+                </div>
+              </div>
+            </div>          
+          </div>  
+
+        </div>  
+  
       </div>
     </section>
 
@@ -158,13 +224,12 @@
     <section id="contact">
       <div class="container">
         <div class="py-5 text-center">
-          <h2>¡Contactanos!</h2>
-          <p class="lead">Llená el formulario debajo y uno de nuestros agentes se estará poniendo en contacto con vos para informarte sobre tus dudas o consultas.</p>
+          <h1 id="titulo-nosotros">¡Contactanos!</h1>
+          <p class="lead">Comunicate con nosotros, sacate las dudas y probá el servicio.</p>
         </div>
       
         <div class="formulario-contacto row">
-          <div class="formulario-contacto-in col-lg-8 col-md-8">
-            <h4 class="mb-3">Datos de contacto</h4>
+          <div class="formulario-contacto-in col-lg-12 col-md-8">
             <form class="needs-validation" novalidate>
               <div class="row">
                 <div class="col-md-6 mb-3">
@@ -182,17 +247,7 @@
                   </div>
                 </div>
               </div>
-      
-              <div class="mb-3">
-                <label for="username">Nombre de usuario <span class="text-optional">(Para clientes)</span></label>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text">@</span>
-                  </div>
-                  <input type="text" class="form-control" id="username" placeholder="Usuario">
-                </div>
-              </div>
-      
+            
               <div class="mb-3">
                 <label for="email">Email</label>
                 <input type="email" class="form-control" id="email" placeholder="tumail@ejemplo.com" required>
@@ -200,85 +255,39 @@
                   El campo "Email" es requerido.
                 </div>
               </div>
-      
+
               <div class="mb-3">
-                <label for="address">Domicilio</label>
-                <input type="text" class="form-control" id="address" placeholder="Calle Martinez 1234" required>
-                <div class="invalid-feedback">
-                  El campo "Domicilio" es requerido.
+                <label for="username">Teléfono <span class="text-optional">(Opcional)</span></label>
+                <div class="">
+                  <input type="phone" class="form-control" id="phone" placeholder="(+54) 358 123 456 789">
                 </div>
               </div>
-      
-              <div class="mb-3">
-                <label for="address2">Domicilio 2 <span class="text-optional">(Opcional)</span></label>
-                <input type="text" class="form-control" id="address2" placeholder="Departamento/Lote">
-              </div>
-      
+
+            
               <div class="row">
                 <div class="col-md-5 mb-3">
                   <label for="country">País</label>
                   <input type="text" class="form-control" id="country" placeholder="Argentina">
                 </div>
                 <div class="col-md-4 mb-3">
-                  <label for="province">País</label>
+                  <label for="province">Provincia</label>
                   <input type="text" class="form-control" id="province" placeholder="Córdoba">
                 </div>
                 <div class="col-md-3 mb-3">
-                  <label for="zip">Zip</label>
-                  <input type="text" class="form-control" id="CP" placeholder="5000">
+                  <label for="ciudad">Provincia</label>
+                  <input type="text" class="form-control" id="ciudad" placeholder="Córdoba">
                 </div>
+              </div>
+              <div>
+                <label for="text">Ingresá tu consulta</label>
+                <input type="text" class="form-control form-control-lg" id="Consulta" placeholder="...">
               </div>
               <hr class="mb-4">
               <button class="btn btn-success btn-lg btn-block" type="submit">Enviar consulta</button>
             </form>
           </div>
-          <div class="col-lg-4 col-md-8">
-            <p class="contact-text">Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. Acá va texto sobre contacto. </p>
-          </div>
         </div>  
       </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing">
-
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-
-
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-    </section>
-
-    <!-- Call to Action -->
-    <section id="try">
-
-      <h3>Probá nuestro servicio (Falta el formulario)</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-
     </section>
 
     <!-- Footer -->
@@ -290,3 +299,6 @@
 
   </body>
 </html>
+
+
+<!-- Sacar barrido de slide -->
