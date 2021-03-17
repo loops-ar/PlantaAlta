@@ -6,12 +6,16 @@ body{
   margin: 0 0;
   z-index: 0;
 }
+
 body::after{
-  background-image:  url("../images/building.jpeg");
+  background-image: url("../images/building.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   content: "";
   opacity: 0.2;
   position: absolute;
