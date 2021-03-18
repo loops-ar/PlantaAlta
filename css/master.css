@@ -238,9 +238,20 @@ text-decoration: underline;
   padding: 2% 0 2% 0;
   font-size: 3rem;
 }
+@media (max-width: 1028px){
+  .try-header{
+  font-size: 1.9rem;
+  }
+}
+  
 .try-header2{
   padding: 1% 0 2% 0;
   font-size: 1.5rem;
+}
+@media (max-width: 1028px){
+  .try-header2{
+  font-size: 1.1rem;
+  }
 }
 .app-div{display: none;
   border-style: solid;
@@ -275,6 +286,14 @@ text-decoration: underline;
     font-size: 1.8rem;
   }
 }
+@media (max-width: 1028px){
+  .pay-icon{
+    max-width: 25%;
+    height: auto;
+    padding: 3% 0;
+  }
+}
+
 
 /* Section CONTACT */
 #contact{
