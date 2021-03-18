@@ -43,12 +43,18 @@ p{
 }
 .container-fluid{
   padding: 0 10%;
+  margin: 0;
 }
 
 
   /* Navigation Bar */
   .navbar-brand{
     padding: 0 0 0 15px;
+  }
+  @media (max-width: 1028px){
+    .navbar-brand{
+      padding: 0;
+    }
   }
   .navbar-nav{
     align-items: center;
@@ -59,6 +65,7 @@ p{
     font-weight: bold;
   }
 
+
   /* Title Text */
   .title-text{
     padding: 5px 0 0 15%;
@@ -66,7 +73,7 @@ p{
   }
   @media (max-width: 1028px){
     .title-text{
-      padding: 0 0 30% 5%;
+      padding: 0 0 50% 0;
     }
   }
   .title-div-text{
@@ -99,6 +106,12 @@ p{
 #titulo-nosotros{
   margin: 1% 0 0 0;
   font-size: 3rem;
+}
+@media (max-width: 1028px){
+  #titulo-nosotros{
+    font-size: 1.9rem;
+    padding-bottom: 20%;
+  }
 }
 #about-us{
   background-color: #007f00c5;
@@ -140,7 +153,7 @@ p{
     padding: 10% 0 0 0;
   }
 }
-  .nosotros-img{
+.nosotros-img{
   border-radius: 5%;
   max-width: auto;
   max-height: auto;
@@ -267,6 +280,16 @@ text-decoration: underline;
 }
 .lead{
   color: white;
+}
+#titulo-nosotros-2{
+  margin: 1% 0 0 0;
+  font-size: 3rem;
+}
+@media (max-width: 1028px){
+  #titulo-nosotros-2{
+    font-size: 2rem;
+    padding-bottom: 5%;
+  }
 }
 .contact-text{
   padding: 0 0 5% 0;
