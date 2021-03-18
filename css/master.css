@@ -68,12 +68,12 @@ p{
 
   /* Title Text */
   .title-text{
-    padding: 5px 0 0 15%;
+    padding: 0;
     border-radius: 0px 20px;
   }
   @media (max-width: 1028px){
     .title-text{
-      padding: 0 0 50% 0;
+      padding: 0 10% 50% 10%;
     }
   }
   .title-div-text{
@@ -120,7 +120,7 @@ p{
 }
 @media (max-width: 1028px){
   #about-us{
-  min-height: 650px;
+  min-height: 500px;
   }
 }
 .nosotros-text-r{
@@ -135,7 +135,7 @@ p{
     font-size: 1.2rem;
     line-height: 1.8rem;
     text-align: center;
-    padding: 0 0 10% 0;
+    padding: 0 0 0 0;
   }
 }
 .nosotros-text-l{
@@ -150,14 +150,21 @@ p{
     font-size: 1.2rem;
     line-height: 1.8rem;
     text-align: center;
-    padding: 10% 0 0 0;
+    padding: 0 0 0 0;
   }
 }
 .nosotros-img{
   border-radius: 5%;
   max-width: auto;
   max-height: auto;
+  display: block;
 }
+@media (max-width: 1028px){
+  .nosotros-img{
+  display: none;
+  }
+}
+
 .carousel-item{
   padding: 5% 15%;
 
