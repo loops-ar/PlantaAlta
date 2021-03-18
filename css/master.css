@@ -45,6 +45,7 @@ p{
   padding: 0 10%;
 }
 
+
   /* Navigation Bar */
   .navbar-brand{
     padding: 0 0 0 15px;
@@ -62,6 +63,11 @@ p{
   .title-text{
     padding: 5px 0 0 15%;
     border-radius: 0px 20px;
+  }
+  @media (max-width: 1028px){
+    .title-text{
+      padding: 0 0 30% 5%;
+    }
   }
   .title-div-text{
     padding: 4rem 0 10px 0;
@@ -83,6 +89,11 @@ p{
     margin-left: auto;
     margin-right: auto;
   }
+  @media (max-width: 1028px){
+    .img-app-title{
+      display: none;
+    }
+  }
 
 /* About Us */
 #titulo-nosotros{
@@ -94,12 +105,25 @@ p{
   color: white;
   text-align: center;
 }
+@media (max-width: 1028px){
+  #about-us{
+  min-height: 650px;
+  }
+}
 .nosotros-text-r{
   padding: 2% 5% 0 5%;
   font-family: 'Roboto', sans-serif;
   text-align: right;
   font-size: 1.2em;
   line-height: 3rem;
+}
+@media (max-width: 1028px){
+  .nosotros-text-r{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 0 0 10% 0;
+  }
 }
 .nosotros-text-l{
   padding: 2% 5% 0 5%;
@@ -108,7 +132,15 @@ p{
   font-size: 1.2rem;
   line-height: 3rem;
 }
-.nosotros-img{
+@media (max-width: 1028px){
+  .nosotros-text-l{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 10% 0 0 0;
+  }
+}
+  .nosotros-img{
   border-radius: 5%;
   max-width: auto;
   max-height: auto;
@@ -123,13 +155,18 @@ p{
   padding: 0 0;
   background-color: rgb(25, 25, 25);
   z-index: 1;
+  position: relative;
 }
-
-.videobg {
-  z-index: 2;
+@media (max-width: 1028px){
+  #features{
+    background-color: #232323c5;
+  }
+}
+.vieobg{
+  z-index: -2;
   height: 100vh;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 #myVideo{
   opacity: 0.15;
@@ -140,10 +177,16 @@ p{
   height: 100%;
   object-fit: cover;
 }
+@media (max-width: 1028px){
+  .videoblog-div{
+    display: none;
+  }
+}
 
 .content{
   color: white;
   padding: 15% 7%;
+  z-index: 2;
 }
 .feature{
   color: white;
@@ -161,8 +204,8 @@ text-decoration: underline;
   color: #138e00;
 }
 
-/* Section TRY */
-#try{
+/* Section BENEFICIOS */
+#beneficios{
   text-align: center;
 }
 .card-header{
@@ -207,7 +250,11 @@ text-decoration: underline;
   padding: 2% 0 5% 0;
   font-size: 2.5rem;
 }
-
+@media (max-width: 1028px){
+  .pay-header{
+    font-size: 1.8rem;
+  }
+}
 
 /* Section CONTACT */
 #contact{
@@ -236,6 +283,12 @@ text-decoration: underline;
   border-radius: 3%;
   border-color: gray;
 }
+@media (max-width: 1028px){
+  .formulario-contacto{ 
+    padding: 0 2%;  
+  }
+}
+
 .titulo-form{
   text-align: center;
 }
